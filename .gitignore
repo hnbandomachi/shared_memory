@@ -1,0 +1,9 @@
+.vs
+bin
+packages
+*.log
+*.idp
+process1/Debug/*
+process1/x64/Debug/*
+process2/Debug/*
+process2/x64/Debug/*
