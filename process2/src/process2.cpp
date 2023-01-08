@@ -18,9 +18,9 @@ int main(int argc, char* argv[])
 
     //Check that memory was initialized to 1
     int* pshm = static_cast<int*>(region.get_address());
-    std::cout << "Getting data of address " << pshm << std::endl;
 
-    for (int i(0); i < 3; i++) {
+    for (int i(0); i < 10; i++) {
+        std::cout << "Getting data of address " << pshm+i << std::endl;
         std::cout << "Read data: " << (int)*(pshm + i);
         std::cin.get();
     }
