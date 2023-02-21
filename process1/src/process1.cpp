@@ -6,7 +6,7 @@
 #include <iostream>
 #include <ctime>
 
-// commit 1 remote
+// commit 2 local
 
 int main(int argc, char* argv[])
 {
